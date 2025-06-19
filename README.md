@@ -44,7 +44,7 @@ def extract_image_features(image_paths):
     return features
 ```
 ### 3. 캡션 전처리
-캡션을 처리하기 위해 Tokenizer를 사용하여 텍스트를 정수 시퀀스로 변환한한다.
+캡션을 처리하기 위해 Tokenizer를 사용하여 텍스트를 정수 시퀀스로 변환한다.
 `preprocess_captions.py`
 ```python
 # 캡션을 토크나이즈하는 함수
